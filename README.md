@@ -29,8 +29,8 @@ Los datasets se descargan directamente desde [https://opendata.cern.ch](https://
 | **Z/γ\* → ℓℓ**         | yes                        | [DYJetsToLL_M-50_13TeV-madgraphMLM-pythia8](https://opendata.cern.ch/record/35671)      | Fondo leptónico bien definido.                        |
 | **tt̄ (HT 600–800)**   |  2015               | [TTJets_HT-600to800_13TeV-madgraphMLM-pythia8](https://opendata.cern.ch/record/19946)   | Usar como proxy si no se encuentra 2016.              |
 | **tt̄ (SingleLept)**   |  2015               | [TTJets_SingleLeptFromT_13TeV-madgraphMLM-pythia8](https://opendata.cern.ch/record/19938) | Aprox válida si se justifica.                         |
-| **QCD multijet**       |  (HT 1000–1500)          | [QCD_HT1000to1500_13TeV-madgraph-pythia8](https://opendata.cern.ch/record/5495)          | Utilizable para validar colas de MET.                 |
-| **GJets (fondo γ)**    | yes                         | [GJets_HT-600ToInf_13TeV-madgraph](https://opendata.cern.ch/record/5564)                | Puede apoyar validación en CR hadrónicos.             |
+| **QCD multijet**       |  mo          |         | Utilizable para validar colas de MET.                 |
+| **GJets (fondo γ)**    |                        |                | Puede apoyar validación en CR hadrónicos.             |
 | **Single top**         |2016 no disponible      | –                                                                                        | Buscar versiones 2015 o simular con MadGraph.         |
 | **VV (WW, WZ, ZZ)**    | Parcial (2015)          | –                                                                                        | Se puede combinar manualmente desde Open Data 2015.   |
 | **TTV (ttW, ttZ)**     | no                         | –                                                                                        | Simular si se desea alta precisión.                   |
