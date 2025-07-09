@@ -22,3 +22,17 @@ https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=EXO-18-010&tp=an&id=2085&a
 Los datasets se descargan directamente desde [https://opendata.cern.ch](https://opendata.cern.ch).
 
 ## Simulation
+
+| Dataset | Enlace | ¿Disponible? | Alternativa |
+|--------|--------|---------------|-------------|
+| `WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa` (W+jets) | [Acces](https://opendata.cern.ch/record/69710) | yes | – |
+| `DYJetsToLL_M-50_13TeV-madgraphMLM-pythia8` (Z/γ* → ℓℓ) | [Acces](https://opendata.cern.ch/record/35671) | yes | – |
+| `TTJets_HT-600to800_13TeV-madgraphMLM-pythia8` (tt̄ fondo, versión 2015) | [Acces](https://opendata.cern.ch/record/19946) | yes (2015) | Usar como aproximación si 2016 no está |
+| `TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8` | [Acces](https://opendata.cern.ch/record/19938) | yes (2015) | – |
+| `QCD_HT1000to1500_13TeV-madgraph-pythia8` (QCD multijet ejemplo) | [Acces](https://opendata.cern.ch/record/5495) | Parcial | Simular o usar estimación data-driven |
+| `GJets_HT-600ToInf_13TeV-madgraph` (fondo fotónico instrumental) | [Acces](https://opendata.cern.ch/record/5564) | yes | – |
+| **Señal tt̄ + DM (φ → χχ)** | – |  No disponible |  Simular con MadGraph + PYTHIA + Delphes |
+| Modelo simplificado para MadGraph (UFO) | [DMSimp_s_spin0 (FeynRules)](https://feynrules.irmp.ucl.ac.be/wiki/DMsimp) | yes | – |
+
+Para la señal, es necesario generarla localmente usando MadGraph 5 y simular el detector con Delphes o CMSSW.
+
