@@ -69,4 +69,6 @@ it is advisable to first focus on the background processes that do have publicly
 
 For processes not available in Open Data, such as Single Top, VV (dibosons), and TTV (ttW, ttZ), two paths can be taken: simulating the events using generators such as MadGraph in conjunction with Pythia and Delphes, or applying data-driven estimation methods, although the latter can be more complex and less accurate for educational analysis. For the dark matter signal (tt̄+DM), it is recommended to use simplified public models such as those in the DMSimp repository (UFO) and generate the samples directly. When documenting the analysis, it is crucial to clarify which backgrounds were used, which were omitted, and how they were replaced or simulated, in addition to specifying the signal configurations used and the limits derived from the use of different campaigns between 2015 and 2016.
 
+## Julie's suggestion
 
+[Simulated dataset TTToSemiLeptonic](https://opendata.cern.ch/record/67993)
