@@ -34,21 +34,26 @@ https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=EXO-18-010&tp=an&id=2085&a
 ## Dataset
 ### Run2016
 
-| Dataset | Enlace |
-|--------------|--------|
-| CMS Open Data Guide sobre selección de objetos MET | [CMS Open Data Guide](https://cms-opendata-guide.web.cern.ch/analysis/selection/objects/met/) |
-| Dataset MET 2016 RunG en formato MINIAOD | [Acces](https://opendata.cern.ch/record/30509) |
-| Dataset MET 2016 RunG en formato NANOAOD | [Acces](https://opendata.cern.ch/record/30526) |
-| Dataset MET 2016 RunH en formato MINIAOD | [Acces](https://opendata.cern.ch/record/30542) |
-| Archivo de configuración para el paso PAT (ReReco Run2016H MET UL2016 MiniAODv2) | [Ver configuración](https://opendata-qa.cern.ch/record/30453?utm) |
-| Dataset SingleElectron 2016 RunG en formato MINIAOD | [Acces](https://opendata.cern.ch/record/30512) |
-| Dataset SingleElectron 2016 RunH en formato MINIAOD | [Acces](https://opendata.cern.ch/record/30545) |
+| Primary dataset | Era      | Formato   | Enlace                                                                                   |
+| --------------- | -------- | --------- | ---------------------------------------------------------------------------------------- |
+| SingleMuon      | Run2016G | NANOAODv9 | /SingleMuon/Run2016G-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][1])     |
+| SingleMuon      | Run2016H | NANOAODv9 | /SingleMuon/Run2016H-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][2])     |
+| SingleElectron  | Run2016G | NANOAODv9 | /SingleElectron/Run2016G-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][3]) |
+| SingleElectron  | Run2016H | NANOAODv9 | /SingleElectron/Run2016H-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][4]) |
+| MET             | Run2016G | NANOAODv9 | /MET/Run2016G-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][5])            |
+
+[1]: https://opendata.cern.ch/record/30530?utm_source=chatgpt.com "SingleMuon/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD"
+[2]: https://opendata.cern.ch/record/30563 "/SingleMuon/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD | CERN Open Data Portal"
+[3]: https://opendata.cern.ch/record/30529?utm_source=chatgpt.com "SingleElectron primary dataset in NANOAOD format ..."
+[4]: https://opendata.cern.ch/record/30562?utm_source=chatgpt.com "SingleElectron primary dataset in NANOAOD ..."
+[5]: https://opendata.cern.ch/record/30526 "/MET/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD | CERN Open Data Portal"
+
 
 Los datasets se descargan directamente desde [https://opendata.cern.ch](https://opendata.cern.ch).
 
 ## Simulation
 
-¡hecho! añadí la columna **Formato** (Mini vs Nano) y dejé todo listo para pegarlo en tu README de GitHub. Como trabajaremos con **Nano**, marcados están como **NANOAODSIM** (MC) o **NANOAOD** (DATA). *(En CMS Open Data, los MC en Nano se etiquetan “NANOAODSIM”, los datos reales “NANOAOD”.)* ([opendata.cern.ch][1]) ([opendata.cern.ch][2])
+ ([opendata.cern.ch][1]) ([opendata.cern.ch][2])
 
 | Proceso             | Dataset (UL16)                                                                            | Tipo | Formato        | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------------------- | ----------------------------------------------------------------------------------------- | ---- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
