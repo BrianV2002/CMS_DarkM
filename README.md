@@ -42,10 +42,10 @@ https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=EXO-18-010&tp=an&id=2085&a
 | SingleElectron  | Run2016H | NANOAODv9 | /SingleElectron/Run2016H-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][4]) |
 | MET             | Run2016G | NANOAODv9 | /MET/Run2016G-UL2016\_MiniAODv2\_NanoAODv9-v1/NANOAOD ([opendata.cern.ch][5])            |
 
-[1]: https://opendata.cern.ch/record/30530?utm_source=chatgpt.com "SingleMuon/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD"
+[1]: https://opendata.cern.ch/record/30530?utm "SingleMuon/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD"
 [2]: https://opendata.cern.ch/record/30563 "/SingleMuon/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD | CERN Open Data Portal"
-[3]: https://opendata.cern.ch/record/30529?utm_source=chatgpt.com "SingleElectron primary dataset in NANOAOD format ..."
-[4]: https://opendata.cern.ch/record/30562?utm_source=chatgpt.com "SingleElectron primary dataset in NANOAOD ..."
+[3]: https://opendata.cern.ch/record/30529? "SingleElectron primary dataset in NANOAOD format ..."
+[4]: https://opendata.cern.ch/record/30562?utm "SingleElectron primary dataset in NANOAOD ..."
 [5]: https://opendata.cern.ch/record/30526 "/MET/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD | CERN Open Data Portal"
 
 
@@ -74,8 +74,8 @@ Los datasets se descargan directamente desde [https://opendata.cern.ch](https://
 | tt̄V                | TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo-pythia8                                        | MC   | **NANOAODSIM** | [https://opendata.cern.ch/record/68195](https://opendata.cern.ch/record/68195)                                                                                                                                                                                                                                                                                                                                                                                            |
 
 
-[1]: https://opendata.cern.ch/record/30562?utm_source=chatgpt.com "SingleElectron primary dataset in NANOAOD ..."
-[2]: https://opendata.cern.ch/record/36038?utm_source=chatgpt.com "gammaHiggs0PHZyToZZ_M125..."
+[1]: https://opendata.cern.ch/record/30562?utm "SingleElectron primary dataset in NANOAOD ..."
+[2]: https://opendata.cern.ch/record/36038?utm "gammaHiggs0PHZyToZZ_M125..."
 
 
 
